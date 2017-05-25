@@ -30,4 +30,20 @@ export class AppComponent {
 
   };
 
+  valorPromesa = new Promise( ( resolve, reject ) => {
+
+    setTimeout( () => resolve('llego la data'),5300 );
+
+  } );
+
+  fecha = new Date();
+
+  nombre2:string = "JulIO aUReliO SAranGO QuIZhpE";
+
+  video:string = "NI5IR3AJqDs";
+
+  clave:string = "JulioSarango";                  
+
+  activar:boolean = true;
+
 }
